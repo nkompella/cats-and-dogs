@@ -1,0 +1,78 @@
+body {
+	/*Add font family*/
+	margin: 0;
+	background: #f2f2f2;
+	color: #333333;
+	overflow: auto;
+}
+
+/*FOR THE NAVBAR*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.aboutme {
+    position: absolute;
+    font-size: 100px;
+    color: white;
+}
+
+.active {
+    background-color: #ffbf00;
+}
+
+/* remove */
+
+.item {
+    width: 120px;
+    height: 120px;
+}
+
+#pic {
+    position: relative;
+}
+
+#greet {
+    color: white;
+    position: absolute;
+    bottom: 500px;
+    left: 40px;
+    font-size: 80px;
+}
+
+#about {
+    color: white;
+    font-size: 30px;
+    width: 500px;
+    position: absolute;
+    text-align: center;
+    left: 120px;
+    bottom: 400px;
+}
+
